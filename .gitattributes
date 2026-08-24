@@ -1,0 +1,7 @@
+* text=auto
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+skeet/Binary/skeet.bin filter=lfs diff=lfs merge=lfs -text
+skeet/Binary/skeet_cv.bin filter=lfs diff=lfs merge=lfs -text
+
